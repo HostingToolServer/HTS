@@ -1,0 +1,605 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: url(../Imagenes/Firefly\ un\ tecnico\ con\ capucha\ de\ espaldas\ sentado\ con\ una\ computadora\ en\ un\ Servidor\ Hacker\ 46519.jpg) ;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Inicio{
+    position: relative;
+    top: -60px;
+    left: 130px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration:none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to bottom right, orangered, red ) ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+.Membresias{
+    position: relative;
+    top: -60px;
+    left: 150px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to right,rgb(0, 204, 255),blue);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.INFINITY{
+    position: relative;
+    top: -60px;
+    left: 170px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to right,rgb(255, 0, 119),purple);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.EFT{
+    position: relative;
+    top: -60px;
+    left: 190px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,rgb(0, 255, 149), rgb(52, 202, 52));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.OCTOPLUS{
+    position: relative;
+    top: -60px;
+    left: 210px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom left,rgb(0, 119, 255),rgb(0, 255, 221));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.SIGMA{
+    position: relative;
+    top: -60px;
+    left: 230px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,rgb(122, 0, 0),rgb(255, 78, 78));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.UMT{
+    position: relative;
+    top: -60px;
+    left: 250px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,yellowgreen,rgb(65, 211, 65),rgb(100, 228, 228));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Z3X{
+    position: relative;
+    top: -60px;
+    left: 270px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    -webkit-animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,rgb(76, 132, 252),rgb(18, 54, 153));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.APPLE{
+    position: relative;
+    top: -60px;
+    left: 290px;
+    font-family: sans-serif; 
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    -webkit-animation: fadeIn 2s ease-out forwards;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.APPLE img{
+    width: 20px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.Licencias{
+    position: relative;
+    top: -60px;
+    left: 310px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to right,rgb(153, 153, 153),rgb(39, 39, 39));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.FRP{
+    position: relative;
+    top: -60px;
+    left: 325px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to bottom,crimson,orangered);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Contacto{
+    position: relative;
+    top: 80%;
+    left: 345px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to bottom right,rgb(21, 109, 150),rgb(6, 231, 247));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul {
+    list-style: none;
+
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+}
+.Sub1 li{
+    display: block;
+}
+.Sub1 {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+li:hover ul.Sub1{
+    display: block;
+}
+.Sub1 li a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px 0;
+     color: white;
+     background-color: rgb(0, 0, 0,.5);
+     position: relative;
+     left: 150px;
+     top: -60px;
+    animation: fadeIn 1s ease-out forwards;
+     -webkit-animation: fadeIn 1s ease-out forwards;
+}
+.Sub2 li{
+     display: block; 
+} 
+.Sub2 { 
+    width: 100%;
+     position: absolute;
+      display: none; 
+      z-index: 100;
+      text-align: center;
+ } 
+ li:hover .Sub2{ 
+    display: block; 
+} 
+.Sub2 li a{
+     display: block; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px 0; 
+     margin: 0; 
+     color: white;
+     background-color: rgb(0, 0, 0,.5); 
+     position: relative; 
+     left: 310px; 
+     top: -60px; 
+     animation: fadeIn .5s ease-out forwards; 
+     -webkit-animation: fadeIn .5s ease-out forwards;
+ }
+.Sub3 li{
+    display: block;
+}
+.Sub3 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub3{ 
+        display: block; 
+} 
+.Sub3 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 170px; 
+         top: -60px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub4 li{
+    display: block;
+}
+.Sub4 { 
+        width: 170%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub4{ 
+        display: block; 
+} 
+.Sub4 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 175px; 
+         top: -60px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub5 li{
+    display: block;
+}
+.Sub5 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub5{ 
+        display: block; 
+} 
+.Sub5 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 210px; 
+         top: -60px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub6 li{
+    display: block;
+}
+.Sub6 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub6{ 
+        display: block; 
+} 
+.Sub6 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 230px; 
+         top: -60px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub7 li{
+    display: block;
+}
+.Sub7 {
+        width: 130%;
+        position: absolute;
+        display: none;
+        z-index: 100;
+        text-align: center;
+    
+} 
+li:hover .Sub7{ 
+        display: block; 
+} 
+.Sub7 li a{
+         display: block;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         padding: 10px 0;
+         margin: 0;
+         color: white;
+         background-color: rgb(0, 0, 0,.5);
+         position: relative;
+         left: 232px;
+         top: -60px;
+         animation: fadeIn .5s ease-out forwards;
+         -webkit-animation: fadeIn .5s ease-out forwards;
+
+} 
+.Sub8 li{
+    display: block;
+}
+.Sub8 { 
+        width: 150%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub8{ 
+        display: block; 
+} 
+.Sub8 li a{
+         display: block;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         padding: 10px 0;
+         margin: 0;
+         color: white;
+         background-color: rgb(0, 0, 0,.5);
+         position: relative;
+         left: 257px;
+         top: -60px;
+         animation: fadeIn .5s ease-out forwards;
+         -webkit-animation: fadeIn .5s ease-out forwards;
+  
+} 
+.Sub9 li{
+    display: block;
+}
+.Sub9 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub9{ 
+        display: block; 
+} 
+.Sub9 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 290px; 
+         top: -60px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+}  
+
+.Barra{ 
+    width: 98.5%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-out forwards;
+    position: relative;
+}
+.title{
+    font-size: 80px;
+    color:rgb(190, 190, 190);
+    background: linear-gradient(to bottom,rgb(255, 255, 255),gray);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    -webkit-text-stroke-color: rgb(1, 132, 255);
+    -webkit-text-stroke-width: 2.5px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: initial;
+   
+}
+.Mobile{
+width: 50px;
+margin: 0;
+    padding: 5px ;
+
+}
+.Eslogan{
+    background: linear-gradient(to right,rgba(255, 115, 0, 0.493) 25%,rgba(0, 0, 0, 0.466) 75%);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    width: 50%;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: initial;
+    animation: fadeIn 1s ease-out forwards;
+    -webkit-animation: fadeIn 1s ease-out forwards;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.USB{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 60px;
+    background-color: transparent;
+    
+}
+.RADMIN{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 60px;
+    background-color: transparent;
+
+}
+.ALCOR{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 60px;
+    background-color: transparent;
+    
+}
+.ANYDESK{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 60px;
+    background-color: transparent;
+
+}
+.GUIA{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 60px;
+    background-color: transparent;
+
+}
+.CONTACTO{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 50px;
+    background-color: transparent;
+}
+    
+.Separacion{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lateral{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 7%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.Lateral2{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 7%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.APK{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 65px;
+    background-color: transparent;
+}
+.ROM{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 65px;
+    background-color: transparent;
+}
+.ARCHIVO{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 65px;
+    background-color: transparent;
+}
+.TELEGRAM{
+    margin: 10px;
+    padding: 5px 5px;
+    width: 65px;
+    background-color: transparent;
+}
+.CONTACTO{
+    margin: 10px;
+    padding: 5px 5px 5px 7px;
+    width: 60px;
+    background-color: transparent;
+}
+.AppLateral{
+    display: flex;
+    flex-direction: column;
+}
+@keyframes animate {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

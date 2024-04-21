@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../Imagenes/Fondo\ MB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Inicio{
+    position: relative;
+    top: -100px;
+    left: 130px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration:none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to bottom right, orangered, red ) ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Membresias{
+    position: relative;
+    top: -100px;
+    left: 150px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to right,rgb(0, 204, 255),blue);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.INFINITY{
+    position: relative;
+    top: -100px;
+    left: 170px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to right,rgb(255, 0, 119),purple);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.EFT{
+    position: relative;
+    top: -100px;
+    left: 190px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,rgb(0, 255, 149), rgb(52, 202, 52));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.OCTOPLUS{
+    position: relative;
+    top: -100px;
+    left: 210px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom left,rgb(0, 119, 255),rgb(0, 255, 221));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.SIGMA{
+    position: relative;
+    top: -100px;
+    left: 230px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,rgb(122, 0, 0),rgb(255, 78, 78));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.UMT{
+    position: relative;
+    top: -100px;
+    left: 250px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,yellowgreen,rgb(65, 211, 65),rgb(100, 228, 228));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Z3X{
+    position: relative;
+    top: -100px;
+    left: 270px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    -webkit-animation: fadeIn 2s ease-out forwards;
+    background:linear-gradient(to bottom right,rgb(76, 132, 252),rgb(18, 54, 153));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.APPLE{
+    position: relative;
+    top: -100px;
+    left: 290px;
+    font-family: sans-serif; 
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    -webkit-animation: fadeIn 2s ease-out forwards;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.APPLE img{
+    width: 20px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.Licencias{
+    position: relative;
+    top: -100px;
+    left: 310px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to right,rgb(153, 153, 153),rgb(39, 39, 39));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.FRP{
+    position: relative;
+    top: -100px;
+    left: 325px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to bottom,crimson,orangered);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Contacto{
+    position: relative;
+    top: 80%;
+    left: 345px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    animation: fadeIn 2s ease-out forwards;
+    background: linear-gradient(to bottom right,rgb(21, 109, 150),rgb(6, 231, 247));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul {
+    list-style: none;
+
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+}
+.Sub1 li{
+    display: block;
+}
+.Sub1 {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+li:hover ul.Sub1{
+    display: block;
+}
+.Sub1 li a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px 0;
+     color: white;
+     background-color: rgb(0, 0, 0,.5);
+     position: relative;
+     left: 150px;
+     top: -100px;
+    animation: fadeIn 1s ease-out forwards;
+     -webkit-animation: fadeIn 1s ease-out forwards;
+}
+.Sub2 li{
+     display: block; 
+} 
+.Sub2 { 
+    width: 100%;
+     position: absolute;
+      display: none; 
+      z-index: 100;
+      text-align: center;
+ } 
+ li:hover .Sub2{ 
+    display: block; 
+} 
+.Sub2 li a{
+     display: block; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px 0; 
+     margin: 0; 
+     color: white;
+     background-color: rgb(0, 0, 0,.5); 
+     position: relative; 
+     left: 310px; 
+     top: -100px; 
+     animation: fadeIn .5s ease-out forwards; 
+     -webkit-animation: fadeIn .5s ease-out forwards;
+ }
+.Sub3 li{
+    display: block;
+}
+.Sub3 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub3{ 
+        display: block; 
+} 
+.Sub3 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 170px; 
+         top: -100px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub4 li{
+    display: block;
+}
+.Sub4 { 
+        width: 170%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub4{ 
+        display: block; 
+} 
+.Sub4 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 175px; 
+         top: -100px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub5 li{
+    display: block;
+}
+.Sub5 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub5{ 
+        display: block; 
+} 
+.Sub5 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 210px; 
+         top: -100px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub6 li{
+    display: block;
+}
+.Sub6 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub6{ 
+        display: block; 
+} 
+.Sub6 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 230px; 
+         top: -100px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+} 
+.Sub7 li{
+    display: block;
+}
+.Sub7 {
+        width: 130%;
+        position: absolute;
+        display: none;
+        z-index: 100;
+        text-align: center;
+    
+} 
+li:hover .Sub7{ 
+        display: block; 
+} 
+.Sub7 li a{
+         display: block;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         padding: 10px 0;
+         margin: 0;
+         color: white;
+         background-color: rgb(0, 0, 0,.5);
+         position: relative;
+         left: 232px;
+         top: -100px;
+         animation: fadeIn .5s ease-out forwards;
+         -webkit-animation: fadeIn .5s ease-out forwards;
+
+} 
+.Sub8 li{
+    display: block;
+}
+.Sub8 { 
+        width: 150%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub8{ 
+        display: block; 
+} 
+.Sub8 li a{
+         display: block;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         padding: 10px 0;
+         margin: 0;
+         color: white;
+         background-color: rgb(0, 0, 0,.5);
+         position: relative;
+         left: 257px;
+         top: -100px;
+         animation: fadeIn .5s ease-out forwards;
+         -webkit-animation: fadeIn .5s ease-out forwards;
+  
+} 
+.Sub9 li{
+    display: block;
+}
+.Sub9 { 
+        width: 100%;
+         position: absolute;
+          display: none; 
+          z-index: 100;
+          text-align: center;
+} 
+li:hover .Sub9{ 
+        display: block; 
+} 
+.Sub9 li a{
+         display: block; 
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         padding: 10px 0; 
+         margin: 0; 
+         color: white;
+         background-color: rgb(0, 0, 0,.5); 
+         position: relative; 
+         left: 290px; 
+         top: -100px; 
+         animation: fadeIn .5s ease-out forwards; 
+         -webkit-animation: fadeIn .5s ease-out forwards; 
+}  
+.Barra{
+    width: 98.5%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-out forwards;
+    position: relative;
+    -webkit-animation: fadeIn 1s ease-out forwards;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MB{
+    color: white;
+    padding: 5px 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 94%;
+    display: flex;
+    gap: 25px;
+    animation: fadeIn 1s ease-out forwards;
+    -webkit-animation: fadeIn 1s ease-out forwards;
+}
+.SERVER{
+    width: 490px;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+.COMPRA{
+    position: relative;
+    left: 45%;
+    top: -20px;
+    width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #0ef;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.COMPRA a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.COMPRA:hover{
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+@keyframes animate {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
