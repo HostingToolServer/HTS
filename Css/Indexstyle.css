@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../Imagenes/Firefly\ un\ tecnico\ con\ capucha\ de\ espaldas\ sentado\ con\ una\ computadora\ en\ un\ Servidor\ Hacker\ 46519.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centro{
+    width: 60%;
+    position: relative;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    color: aliceblue;
+}
+.Title{
+    font-size: 40px;
+    color:rgb(190, 190, 190);
+    background: linear-gradient(to bottom,white,gray);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-color: rgb(1, 132, 255);
+    -webkit-text-stroke-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: initial;
+    animation: fadeIn 1s ease-out forwards;
+    -webkit-animation: fadeIn 1s ease-out forwards;
+}
+.Cuadro{
+
+    background: linear-gradient(to right,rgba(255, 115, 0, 0.493) 25%,rgba(0, 0, 0, 0.466) 75%);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: initial;
+    animation: fadeIn 1s ease-out forwards;
+    -webkit-animation: fadeIn 1s ease-out forwards;
+    gap: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Eslogan{
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: .7px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+.Advert{
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: .7px;
+    color:rgb(252, 51, 51);
+    font-size: 18px;
+    padding: 10px;
+}
+#continue{  
+    display: none;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #0ef;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#continue a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+
+}
+#continue:hover{
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+a:hover{
+    padding: 3px;
+    font-size: 17px;
+    animation: 1s ease-out forwards;
+    -webkit-animation: 1s ease-out forwards;
+}
+@keyframes animate {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: url(../Imagenes/fondo\ registro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    font-size: 50px;
+    
+}
+.Regresar a{
+    text-decoration: none;
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: 25px;
+    
+
+  
+
+}
+.Regresar a:hover{
+    font-size: 27px;
+    transition: .5s ease-in-out;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.Apps{
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+   
+   
+}
+
+.Icons{
+    width: 130px;
+   padding: 65px;
+}
